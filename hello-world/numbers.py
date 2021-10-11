@@ -1,6 +1,6 @@
-print("First number:")
-firstNum = int(input())
-print("Second number:")
-secondNum = int(input())
-sum = firstNum + secondNum
+firstNum = input("First number:")
+firstNumInteger = float(firstNum)
+secondNum = input("Second number:")
+secondNumInteger = float(secondNum)
+sum = firstNumInteger + secondNumInteger
 print("Sum: " + str(sum))
